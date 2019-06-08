@@ -123,6 +123,11 @@
 #define USE_BARO_BMP280
 #define DEFAULT_BARO_BMP280
 
+#define USE_MAG
+#define USE_MAG_HMC5883
+#define USE_MAG_QMC5883
+#define USE_MAG_LIS3MDL
+
 #define USE_ADC
 #define ADC_INSTANCE            ADC3
 #define ADC3_DMA_OPT            0  // DMA 2 Stream 0 Channel 2
@@ -132,6 +137,7 @@
 #define I2C_DEVICE              (I2CDEV_1)
 #define I2C1_SCL                PB6
 #define I2C1_SDA                PB7
+
 
 #define VBAT_ADC_PIN            PC2
 #define CURRENT_METER_ADC_PIN   PC1
